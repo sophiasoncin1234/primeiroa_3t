@@ -1,6 +1,7 @@
 let tabuada = 2; 
 let nome = " Sophia"; 
-function escreva (){
+
+function escreva(){
     
    document.write ("Tabuada do " + tabuada + "<br>")
    document.write (tabuada+ " x 1 = " + (tabuada*1)+ "<br>");
@@ -15,5 +16,22 @@ function escreva (){
    document.write (tabuada+ " x 10 = " + (tabuada*10)+ "<br>");
    document.write ("feito por" + nome);
 
+}
+
+function minhaTabuada() {
+   for (let i = 6; i <= 9; i++){
+      document.write ("Tabuada do " + i + "<br>"); 
+       for(let j = 1; j <= 10; j++){
+         document.write ( i + " x " + j + "=" + (j*i) + "<br>");
+       }
+    }
+    document.write ("<br>");
+}
+
+
+function quadrado(){
+   for (let i = 2; i <= 20; i++){
+       document.write("O quadrado de " + i + " é " + (i*i)+ "<br>")
+   }
 }
 
