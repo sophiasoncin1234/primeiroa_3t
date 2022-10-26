@@ -1,5 +1,5 @@
 let tabuada = 1;
-let nome = "Antonio";
+let nome = "Sophia";
 
 function escreva(){
     document.write("tabuada do " + tabuada + "<br>")
