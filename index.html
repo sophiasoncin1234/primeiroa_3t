@@ -6,18 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro A</title>
     <script src="estudo.js"></script>
+    <link rel="stylesheet" href="geral.css">
 </head>
 <body>
-
+  <div class="calculadora">
+    <div id="sptotal">
+      <span id="total">Total: 0,0 </span>
+    </div>
   Capital: <input id="Valor" type="text"><br>
   Juros (mensais): <input id="juros" type="text"><br>
   Nr de Meses: <input id="meses" type="text"><br>
   <button onclick="calcula()"> Enviar </button>
+  <div id="spListaMeses">
+  <span id="ListaMeses"></span>
+  </div>
+</div>
 
 
   <br><br><br><br>
   Valor 1: <input id="v1" type="text"><br>
   <button onclick="operacao ('+')">Soma</button>
+  <button onclick="operacao ('-')">Subtrair</button>
+  <button onclick="operacao ('*')">Multiplicar</button>
+  <button onclick="operacao ('/')">Dividir</button>
+
+
+
   <br>
   Valor 2: <input id="v2" type="text"><br>
   <button onclick="calcule()">Calcule</button><br><br>
