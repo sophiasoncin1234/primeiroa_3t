@@ -18,3 +18,22 @@
     padding: 10px;
     margin-bottom: 10px;
 }
+.calculadora button {
+    margin-top: 10px;
+    background: white;
+    padding: 5px 10px;
+    border: none;
+}
+.calculadora button:hover {
+    background: rgb(108, 226, 207);
+    cursor: pointer;
+}
+#spListaMeses {
+    text-align: start;
+    border-style: dotted;
+    border-color: black ;
+    border-width: 1px;
+    color: aqua;
+    background: white;
+    font-size: 10px ;
+}
