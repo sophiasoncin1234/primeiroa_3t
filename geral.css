@@ -11,6 +11,15 @@
     border-radius: 10px;
     padding: 10px;
 }
+.calculadora input:focus {
+    background: white;
+    color: black
+}
+.calculadora button {
+    background: blueviolet;
+    color: black
+    
+} 
 #sptotal {
     background: black;
     color: cornsilk;
@@ -36,4 +45,15 @@
     color: aqua;
     background: white;
     font-size: 10px ;
+}
+#spListaMeses {
+    background: rgb(95, 219, 203);
+    color: black;
+    text-align: start;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: blueviolet;
+    border-width: 2px;
+    border-style: dashed;
+    font-size: 16px;
 }
