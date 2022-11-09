@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +8,22 @@
     <script src="estudo.js"></script>
     <link rel="stylesheet" href="geral.css">
 </head>
+
+
 <body>
+  <input type="checkbox" id="calcFin">
   <div class="calculadora">
+  <label for="calcFin"><h3>Financeira</h3></label>
+
     <div id="sptotal">
       <span id="total">Total: 0,0 </span>
     </div>
-  Capital: <input id="Valor" type="text"><br>
+  Capital: <input id="valor" type="text"><br>
   Juros (mensais): <input id="juros" type="text"><br>
   Nr de Meses: <input id="meses" type="text"><br>
   <button onclick="calcula()"> Enviar </button>
   <div id="spListaMeses">
-  <span id="ListaMeses"></span>
+  <span id="listaMeses"></span>
   </div>
 </div>
 
